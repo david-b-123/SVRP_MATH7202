@@ -1,3 +1,19 @@
+"""
+This file contains the key testing functionality and results generation for the problem. 
+
+To use: hard code parameters into the models_lists, 
+RandList (a stochastic parameter for generating customers around initial points),
+LenList (maximium length of the tour), 
+InitList (initial customers),
+VarList (variance parameter). 
+
+Results are output to "./result_svdrp.csv" in the same filepath. 
+
+Plotting options are available as parameters. 
+
+"""
+
+
 from library import *
 from utils import *
 from solvers import *
