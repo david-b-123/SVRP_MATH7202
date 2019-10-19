@@ -1,3 +1,11 @@
+"""
+This file contains a base travelling salesman subproblem solver implemented in Gurobi.
+The basis of the implementation is Gurobi documentation code https://www.gurobi.com/documentation/8.1/examples/tsp_py.html
+which we have modified to include path restrictions (fixing previously travelled paths), 
+and data formulation specific to the VRPSR.
+
+"""
+
 def tsp_gurobi(Visited,
                potential_customer_id, all_dict):
     # Note: Visited refers to the customers already visited in the path (i.e. need to have the same edges in the new tour)
