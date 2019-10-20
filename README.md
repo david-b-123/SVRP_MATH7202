@@ -7,5 +7,7 @@ The project investigates the Vehicle Routing Problem with Stochastic Requests (V
 
 The original problem formulation is based on [Ulmer M.W. (2017) Anticipation in Dynamic Vehicle Routing](https://www.researchgate.net/publication/325372734_Anticipation_in_Dynamic_Vehicle_Routing). 
 
+Below are two visualisations of the problem. The first is a myopic solver as it adds points and reroutes over the course of the problem. The second is a visualisation of generated grid-based distributions. 
+
 ![](movie.gif)
 ![](grid_based_movie.gif)
